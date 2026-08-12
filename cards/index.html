@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <title>DecisionEngine / Cards | Not Your Grandpa's Card Shop</title>
+
+  <meta
+    name="description"
+    content="DecisionEngine / Cards. Sports cards, market intelligence, card research, grading analysis, and collector tools. Not Your Grandpa's Card Shop."
+  />
+
+  <meta
+    name="theme-color"
+    content="#0b0c12"
+  />
+
+  <link
+    rel="stylesheet"
+    href="./styles.css"
+  />
+</head>
+
+
+<body>
+
+  <!-- =========================================================
+       SITE HEADER
+  ========================================================== -->
+
+  <header class="topbar">
+
+    <div class="brand-lockup">
+
+      <div class="brand-kicker">
+        Powered by DecisionEngine
+      </div>
+
+      <a
+        href="./"
+        class="brand-title"
+        aria-label="DecisionEngine Cards Home"
+      >
+        DecisionEngine <span>/ Cards</span>
+      </a>
+
+    </div>
+
+
+    <nav
+      class="topnav"
+      aria-label="Main Navigation"
+    >
+
+      <a href="#inventory">
+        Cards
+      </a>
+
+      <a href="#market">
+        Market Heat
+      </a>
+
+      <a href="#technology">
+        Technology
+      </a>
+
+      <a href="#vaultgirl">
+        Vault Girl
+      </a>
+
+    </nav>
+
+
+    <div class="top-actions">
+
+      <a
+        class="btn btn-outline"
+        href="https://www.ebay.com/usr/decardvault"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Shop Cards
+      </a>
+
+    </div>
+
+  </header>
+
+
+
+  <main class="site-shell">
+
+
+    <!-- =========================================================
+         HERO
+    ========================================================== -->
+
+    <section class="hero">
+
+      <div class="hero-copy">
+
+        <div class="eyebrow">
+          NOT YOUR GRANDPA'S CARD SHOP.
+        </div>
+
+
+        <h1 class="hero-title">
+          The hobby,
+          <span class="hero-accent-pink">rewired.</span>
+        </h1>
+
+
+        <p class="hero-text">
+          Sports cards meet market intelligence, collector research,
+          technology, and a different way of thinking about the hobby.
+          DecisionEngine / Cards is being built for collectors who want
+          more than another wall of overpriced listings.
+        </p>
+
+
+        <div class="hero-cta">
+
+          <a
+            class="btn btn-primary"
+            href="https://www.ebay.com/usr/decardvault"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Browse Current Cards
+          </a>
+
+
+          <a
+            class="btn btn-secondary"
+            href="#technology"
+          >
+            See What We're Building
+          </a>
+
+        </div>
+
+
+        <div class="hero-points">
+
+          <span>
+            Inventory
+          </span>
+
+          <span>
+            Market Research
+          </span>
+
+          <span>
+            Card Analysis
+          </span>
+
+          <span>
+            Collector Technology
+          </span>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- HERO ART -->
+
+      <div class="hero-art">
+
+        <div class="hero-card">
+
+          <div class="hero-image-wrap">
+
+            <img
+              src="./assets/vault-girl-hero.png"
+              alt="Vault Girl, the blonde DecisionEngine sports card mascot"
+              class="hero-image"
+            />
+
+          </div>
+
+
+          <div class="hero-card-caption">
+
+            <div class="caption-title">
+              VAULT GIRL
+            </div>
+
+            <div class="caption-subtitle">
+              The Hunt Never Sleeps
+            </div>
+
+            <p>
+              Scout. Collector. Instigator.
+              The personality behind DecisionEngine / Cards.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div
+        class="hero-glow hero-glow-pink"
+        aria-hidden="true"
+      ></div>
+
+      <div
+        class="hero-glow hero-glow-green"
+        aria-hidden="true"
+      ></div>
+
+    </section>
+
+
+
+    <!-- =========================================================
+         QUICK IDENTITY STRIP
+    ========================================================== -->
+
+    <section
+      class="announcement-strip"
+      aria-label="Site Information"
+    >
+
+      <div class="announcement-item">
+
+        <span class="strip-label">
+          Current Inventory
+        </span>
+
+        <strong>
+          eBay @decardvault
+        </strong>
+
+      </div>
+
+
+      <div class="announcement-item">
+
+        <span class="strip-label">
+          Home Base
+        </span>
+
+        <strong>
+          DecisionEngine.tech/cards
+        </strong>
+
+      </div>
+
+
+      <div class="announcement-item">
+
+        <span class="strip-label">
+          Built Around
+        </span>
+
+        <strong>
+          Cards • Data • Technology
+        </strong>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================================================
+         FEATURED INVENTORY
+    ========================================================== -->
+
+    <section
+      id="inventory"
+      class="section"
+    >
+
+      <div class="section-head">
+
+        <div>
+
+          <p class="section-kicker">
+            Featured Inventory
+          </p>
+
+          <h2 class="section-title">
+            Cards Worth a Closer Look
+          </h2>
+
+        </div>
+
+
+        <a
+          class="inline-link"
+          href="https://www.ebay.com/usr/decardvault"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View Current Inventory →
+        </a>
+
+      </div>
+
+
+      <p class="section-intro">
+        A rotating look at cards from the current inventory,
+        recent pickups, interesting parallels, rookies,
+        legends, and cards we simply think are worth seeing.
+      </p>
+
+
+      <!--
+        Featured cards will be generated by script.js.
+      -->
+
+      <div
+        id="featured-grid"
+        class="featured-grid"
+      ></div>
+
+    </section>
+
+
+
+    <!-- =========================================================
+         MARKET HEAT
+    ========================================================== -->
+
+    <section
+      id="market"
+      class="section section-alt"
+    >
+
+      <div class="section-head">
+
+        <div>
+
+          <p class="section-kicker">
+            Market Heat
+          </p>
+
+          <h2 class="section-title">
+            What's Moving?
+          </h2>
+
+        </div>
+
+      </div>
+
+
+      <p class="section-intro">
+        The card market moves fast. This section will evolve into
+        DecisionEngine-powered market intelligence, player signals,
+        pricing movements, opportunity detection, and collector watchlists.
+      </p>
+
+
+
+      <div class="heat-grid">
+
+
+        <article class="heat-card">
+
+          <div class="heat-badge heat-up">
+            Heating Up
+          </div>
+
+          <h3>
+            Global Soccer
+          </h3>
+
+          <p>
+            Elite young players, international stars, early issues,
+            scarce parallels, and premium inserts continue to make
+            soccer one of the hobby's most interesting global markets.
+          </p>
+
+        </article>
+
+
+
+        <article class="heat-card">
+
+          <div class="heat-badge heat-watch">
+            On Watch
+          </div>
+
+          <h3>
+            Grading Candidates
+          </h3>
+
+          <p>
+            A card does not need to be expensive to have grading upside.
+            Condition, raw value, gem-mint probability, graded premiums,
+            and grading cost all matter.
+          </p>
+
+        </article>
+
+
+
+        <article class="heat-card">
+
+          <div class="heat-badge heat-cool">
+            Be Selective
+          </div>
+
+          <h3>
+            Parallel Overload
+          </h3>
+
+          <p>
+            Numbered does not automatically mean scarce, desirable,
+            or valuable. Some cards deserve a premium. Others are simply
+            another color in an increasingly crowded rainbow.
+          </p>
+
+        </article>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================================================
+         TECHNOLOGY
+    ========================================================== -->
+
+    <section
+      id="technology"
+      class="section"
+    >
+
+      <div class="section-head">
+
+        <div>
+
+          <p class="section-kicker">
+            DecisionEngine Technology
+          </p>
+
+          <h2 class="section-title">
+            More Than a Card Shop
+          </h2>
+
+        </div>
+
+      </div>
+
+
+      <p class="section-intro">
+        The goal is not to build another generic sports card storefront.
+        DecisionEngine / Cards is where collecting, market data,
+        computer vision, and decision intelligence start coming together.
+      </p>
+
+
+
+      <div class="build-grid">
+
+
+        <article class="build-card">
+
+          <div class="build-number">
+            01
+          </div>
+
+          <h3>
+            Market Intelligence
+          </h3>
+
+          <p>
+            Sold prices are only part of the story.
+            Supply, demand, listing behavior, scarcity,
+            player trajectory, parallel hierarchy, and market momentum
+            all influence what a card is actually worth.
+          </p>
+
+        </article>
+
+
+
+        <article class="build-card">
+
+          <div class="build-number">
+            02
+          </div>
+
+          <h3>
+            Surface Analysis
+          </h3>
+
+          <div class="development-badge">
+            IN DEVELOPMENT
+          </div>
+
+          <p>
+            We are exploring multi-angle smartphone imaging,
+            computational lighting, and surface reconstruction
+            to identify scratches, indentations, print lines,
+            edge defects, and other grading risks that static photos can miss.
+          </p>
+
+        </article>
+
+
+
+        <article class="build-card">
+
+          <div class="build-number">
+            03
+          </div>
+
+          <h3>
+            Grade or Raw?
+          </h3>
+
+          <div class="development-badge">
+            IN DEVELOPMENT
+          </div>
+
+          <p>
+            The useful question is not simply,
+            "What grade will this card receive?"
+            The useful question is,
+            "Given the condition and economics, what should I do with it?"
+          </p>
+
+        </article>
+
+
+
+        <article class="build-card">
+
+          <div class="build-number">
+            04
+          </div>
+
+          <h3>
+            DecisionEngine Signals
+          </h3>
+
+          <div class="development-badge">
+            COMING LATER
+          </div>
+
+          <p>
+            Watchlists, pricing anomalies, market heat,
+            interesting auctions, player movement,
+            and potential opportunities surfaced from card-market data.
+          </p>
+
+        </article>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================================================
+         PHILOSOPHY
+    ========================================================== -->
+
+    <section class="section philosophy-section">
+
+      <div class="philosophy-panel">
+
+        <p class="section-kicker">
+          The DecisionEngine View
+        </p>
+
+
+        <h2 class="philosophy-title">
+          CARDS ARE DATA.
+        </h2>
+
+
+        <div class="philosophy-tags">
+
+          <span>
+            Condition
+          </span>
+
+          <span>
+            Scarcity
+          </span>
+
+          <span>
+            Demand
+          </span>
+
+          <span>
+            Population
+          </span>
+
+          <span>
+            Price
+          </span>
+
+          <span>
+            Trajectory
+          </span>
+
+          <span>
+            Liquidity
+          </span>
+
+          <span>
+            Timing
+          </span>
+
+        </div>
+
+
+        <p class="philosophy-copy">
+          Every card tells a story.
+          DecisionEngine is interested in the data behind it.
+        </p>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================================================
+         VAULT GIRL
+    ========================================================== -->
+
+    <section
+      id="vaultgirl"
+      class="section section-alt"
+    >
+
+      <div class="section-head">
+
+        <div>
+
+          <p class="section-kicker">
+            Meet the Mascot
+          </p>
+
+          <h2 class="section-title">
+            Vault Girl
+          </h2>
+
+        </div>
+
+      </div>
+
+
+
+      <div class="vaultgirl-grid">
+
+
+        <div class="vaultgirl-copy">
+
+          <p class="lead-copy">
+            Vault Girl brings the personality.
+            Blonde, sports-first, modern, bold,
+            and intentionally different from the traditional card-shop aesthetic.
+          </p>
+
+
+          <ul class="vaultgirl-list">
+
+            <li>
+              <strong>Scout's Picks:</strong>
+              cards worth a second look
+            </li>
+
+            <li>
+              <strong>Watchlist:</strong>
+              players and categories getting interesting
+            </li>
+
+            <li>
+              <strong>Quick Takes:</strong>
+              collector observations without the fake hype
+            </li>
+
+            <li>
+              <strong>The Hunt:</strong>
+              interesting pickups, finds, and market opportunities
+            </li>
+
+          </ul>
+
+
+          <p>
+            She is not the brand itself.
+            She is the character that gives the brand personality.
+          </p>
+
+        </div>
+
+
+
+        <div class="vaultgirl-quote">
+
+          <div class="quote-card">
+
+            <div class="quote-accent">
+              VAULT GIRL SAYS
+            </div>
+
+            <p class="quote-line">
+              "The Hunt Never Sleeps."
+            </p>
+
+            <p class="quote-subline">
+              Find the card.
+              Read the market.
+              Make the call.
+            </p>
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================================================
+         FINAL CTA
+    ========================================================== -->
+
+    <section class="section cta-panel">
+
+      <div class="cta-box">
+
+
+        <div>
+
+          <p class="section-kicker">
+            Current Inventory
+          </p>
+
+          <h2 class="section-title">
+            Find Your Next Card.
+          </h2>
+
+          <p class="section-intro">
+            Inventory is currently sold through eBay
+            while DecisionEngine / Cards continues to grow.
+          </p>
+
+        </div>
+
+
+
+        <div class="cta-buttons">
+
+          <a
+            class="btn btn-primary"
+            href="https://www.ebay.com/usr/decardvault"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Shop on eBay
+          </a>
+
+
+          <a
+            class="btn btn-outline"
+            href="https://decisionengine.tech"
+          >
+            Visit DecisionEngine
+          </a>
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+
+  </main>
+
+
+
+  <!-- =========================================================
+       FOOTER
+  ========================================================== -->
+
+  <footer class="footer">
+
+    <div class="footer-inner">
+
+
+      <div class="footer-brand">
+
+        <div class="footer-title">
+          DecisionEngine / Cards
+        </div>
+
+        <div class="footer-subtitle">
+          Not Your Grandpa's Card Shop.
+        </div>
+
+      </div>
+
+
+
+      <div class="footer-links">
+
+        <a href="https://decisionengine.tech">
+          DecisionEngine.tech
+        </a>
+
+        <a href="https://decisionengine.tech/cards/">
+          Cards
+        </a>
+
+        <a
+          href="https://www.ebay.com/usr/decardvault"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          eBay @decardvault
+        </a>
+
+      </div>
+
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+      <span>
+        Powered by DecisionEngine
+      </span>
+
+      <span>
+        Cards • Data • Technology
+      </span>
+
+    </div>
+
+  </footer>
+
+
+
+  <script src="./script.js"></script>
+
+</body>
+</html>
